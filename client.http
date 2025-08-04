@@ -1,0 +1,14 @@
+# Base URL
+@baseUrl = http://localhost:3333
+
+###
+
+# create account
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+  "email": "rodrigo@teste.com",
+  "name": "Rodrigo Sena",
+  "password": "123123"
+}
