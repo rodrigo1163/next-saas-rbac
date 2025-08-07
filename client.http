@@ -12,3 +12,14 @@ Content-Type: application/json
   "name": "Rodrigo Acme",
   "password": "123123"
 }
+
+###
+
+# authenticate with password
+POST {{baseUrl}}/sessions/password
+Content-Type: application/json
+
+{
+  "email": "rodrigo@acme.com",
+  "password": "123123"
+}
