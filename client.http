@@ -1,6 +1,6 @@
 # Base URL
 @baseUrl = http://localhost:3333
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDZhMmE1My1hZjM1LTQwODUtODRiNC00MjQ0ODgxODg1YjEiLCJpYXQiOjE3NTQ1MzQwMjksImV4cCI6MTc1NTEzODgyOX0.feByUJdOJ-sZD_hPS7MSsmfTiHL3YL-vM14h1sI_0vs
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDZhMmE1My1hZjM1LTQwODUtODRiNC00MjQ0ODgxODg1YjEiLCJpYXQiOjE3NTU4MTEwMDMsImV4cCI6MTc1NjQxNTgwM30.R6e1aqWO2d3YMBIPIv9ezMobeGdA1auaZ2CtJOtaa5Y
 ###
 
 # create account
@@ -23,8 +23,6 @@ Content-Type: application/json
   "email": "rodrigo@acme.com",
   "password": "123123"
 }
-
-
 
 ###
 
