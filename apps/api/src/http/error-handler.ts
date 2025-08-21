@@ -23,7 +23,7 @@ export const errorHandler: FastifyErrorHandler = (error, request, reply) => {
       message: error.message,
     })
   }
-  console.error(error.constructor.name, JSON.stringify(error, null, 2))
+  console.error(error)
 
   // send error to some obervability platform
 
