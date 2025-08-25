@@ -1,6 +1,6 @@
 # Base URL
 @baseUrl = http://localhost:3333
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDZhMmE1My1hZjM1LTQwODUtODRiNC00MjQ0ODgxODg1YjEiLCJpYXQiOjE3NTU4MTM0ODQsImV4cCI6MTc1NjQxODI4NH0.fvE8bZ-vtD_Yw2jOjmeWLZ5Z6Atyco2YiEFbhf60d-w
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMDBjZjU4Yy1hZjJjLTQwMjUtYTNlYS0xMDBmMWRiZmU0YTIiLCJpYXQiOjE3NTU5ODU0NjYsImV4cCI6MTc1NjU5MDI2Nn0.54OCufu-3839kYa-L7cWCMvdi98ohaWb8vFf5mfOZ90
 ###
 
 # create account
@@ -20,7 +20,7 @@ POST {{baseUrl}}/sessions/password
 Content-Type: application/json
 
 {
-  "email": "rodrigo@acme.com",
+  "email": "rodrigo@senna.com",
   "password": "123123"
 }
 
