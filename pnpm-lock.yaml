@@ -96,6 +96,9 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
+      ky:
+        specifier: ^1.9.1
+        version: 1.9.1
       lucide-react:
         specifier: ^0.542.0
         version: 0.542.0(react@19.1.0)
@@ -111,6 +114,9 @@ importers:
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
+      zod:
+        specifier: ^4.0.14
+        version: 4.0.14
     devDependencies:
       '@saas/eslint-config':
         specifier: workspace:*
@@ -3477,6 +3483,11 @@ packages:
     dependencies:
       json-buffer: 3.0.1
     dev: true
+
+  /ky@1.9.1:
+    resolution: {integrity: sha512-WGzpBn57klhxsqRTEABAqF4tqTtqCuxoTIv9m6nIZtMMFTVcrHp7bRDWblzFIfqkb47+OhTztOgHn6A4xItmqg==}
+    engines: {node: '>=18'}
+    dev: false
 
   /language-subtag-registry@0.3.23:
     resolution: {integrity: sha512-0K65Lea881pHotoGEa5gDlMxt3pctLi2RplBb7Ezh4rRdLEOtgi7n4EwK9lamnUCkKBqaeKRVebTq6BAxSkpXQ==}
