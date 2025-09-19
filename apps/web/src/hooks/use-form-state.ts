@@ -31,6 +31,7 @@ export function useFormState(
       }
 
       setFormState(state)
+      form.reset()
     })
   }
 

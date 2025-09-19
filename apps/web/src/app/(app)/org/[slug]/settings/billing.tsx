@@ -36,13 +36,15 @@ export async function Billing() {
         <CardContent>
           <Table>
             <TableHeader>
-              <TableHead>Cost type</TableHead>
-              <TableHead className="text-right" style={{ width: 120 }}>
-                Quantity
-              </TableHead>
-              <TableHead className="text-right" style={{ width: 200 }}>
-                Subtotal
-              </TableHead>
+              <TableRow>
+                <TableHead>Cost type</TableHead>
+                <TableHead className="text-right" style={{ width: 120 }}>
+                  Quantity
+                </TableHead>
+                <TableHead className="text-right" style={{ width: 200 }}>
+                  Subtotal
+                </TableHead>
+              </TableRow>
             </TableHeader>
 
             <TableBody>
