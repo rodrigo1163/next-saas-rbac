@@ -78,6 +78,8 @@ export async function getPendingInvites(app: FastifyInstance) {
           },
         })
 
+        console.log('invites', JSON.stringify(invites, null, 2))
+
         return { invites }
       },
     )
